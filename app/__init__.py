@@ -12,6 +12,7 @@ from app.config import Config
 app.config.from_object(Config)
 
 from app.models import db
+
 db.init_app(app)
 Migrate(app, db)
 
