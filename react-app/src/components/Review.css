@@ -1,0 +1,89 @@
+.review-li {
+    font-size: large;
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0px;
+}
+
+.outer-style-div {
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.review-modal-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    background: rgba(245, 245, 245, 0.733);
+    overflow-wrap: break-word;
+}
+
+.edit{
+    margin-top: 10px;
+    width: 60px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgba(26, 83, 175, 0.863);
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.delete{
+    margin-top: 10px;
+    width: 60px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: tomato;
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.edit:hover, .delete:hover{
+    background-color: rgb(235, 235, 232);
+    cursor: pointer;
+}
+
+.review-textarea{
+    width: 20vw;
+    height: 20vh;
+}
+
+.review-form{
+    height: 52vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.review-form > div{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.delete-review-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 52vh;
+}
+
+.delete-review-form > p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}

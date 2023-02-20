@@ -1,0 +1,257 @@
+.dev-container{
+    display: flex;
+    font-size: large;
+    border-radius: 10px;
+    width: 90vw;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    height: 30vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(83, 139, 158, 0.858);
+}
+
+.skills-map {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vh;
+}
+
+.skills-map > div > div > div {
+    border-radius: 10px;
+}
+
+.Dev-bio {
+    overflow-y: scroll;
+}
+
+.dev-skills {
+    align-self: self-start;
+    margin-top: 0;
+    width: 25vw;
+    border-radius: 10px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    height: 32vh;
+    background-color: rgba(83, 139, 158, 0.858);
+    font-size: larger;
+}
+
+.dev-skills-div > li {
+    margin-left: 2vw;
+}
+
+.dev-skills-div {
+    display: flex;
+    flex-flow: column wrap;
+    height: 25vh;
+    width: fit-content;
+    justify-content: flex-start;
+}
+
+.dev-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 25vh;
+}
+
+
+.addReview-button{
+  width: 90px;
+  height: 30px;
+  border-radius: 20px;
+    background-color: rgb(15, 116, 54);
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.addReview-button:hover{
+    background-color: rgb(136, 136, 135);
+    cursor: pointer;
+}
+
+.edit-dev-button{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgba(26, 83, 175, 0.863);
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.delete-dev-button{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: tomato;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+  .edit-dev-button:hover, .delete-dev-button:hover{
+    background-color: rgb(136, 136, 135);
+    cursor: pointer;
+}
+
+.dev-button-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.dev-icon {
+    border: 2px solid black;
+    width: 2vw;
+    height: 3vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+    color: black;
+}
+
+* {
+  text-decoration: none;
+}
+
+.Dev-list > div{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Dev-list-single{
+  box-sizing: border-box;
+  list-style: none;
+  flex: 0 0 33.333333%;
+  padding-left: 10px;
+  height: 20vh;
+  text-decoration: none;
+}
+
+.inner-single-dev {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  height: 15vh;
+  background-color: rgba(83, 139, 158, 0.934);
+  border-radius: 10px;
+}
+
+.inner-single-dev > p {
+  color: black;
+  padding-left: 2vw;
+}
+
+.inner-single-dev:hover {
+  border: 1px solid white;
+}
+
+.inner-single-dev > div {
+  display: flex;
+}
+
+.inner-single-dev > div > div {
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: 600;
+  color: lightcoral;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+}
+
+.Dev-list-single:hover {
+  color: white;
+}
+
+.developers-title {
+  text-align: center;
+  color: lightgrey;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.search-return{
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+.search-name{
+  font-size: xx-large;
+  width: 15vw;
+  height: 3vh;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.search-name > li > a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.search-name > li > a:hover{
+  text-decoration: underline;
+}
+
+.delete-dev-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 52vh;
+}
+
+.delete-dev-form > p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+
+.edit-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Edit-dev-header{
+  display: flex;
+  justify-content: center;
+}
+
+.edit-skills > select{
+  height: 20vh;
+  width: 5vw;
+}
+
+.edit-bio > textarea{
+  width: 30vw;
+  height: 5vh;
+  justify-content: center;
+}
+
+.errors{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.New-dev-header{
+  display: flex;
+  justify-content: center;
+}
+
+.new-dev-form > div > select{
+  height: 20vh;
+  width: 5vw;
+}
+
+.new-dev-form > div > textarea{
+  width: 30vw;
+  height: 5vh;
+  justify-content: center;
+}

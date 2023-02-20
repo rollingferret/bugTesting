@@ -1,0 +1,72 @@
+.Nav-bar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vw;
+    background-color: rgba(83, 139, 158, 0.639);
+}
+.search-field > form > input{
+    width: 450px;
+    height: 30px;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.search-field:hover, .search-field:focus {
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.logout-button{
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgba(87, 30, 116, 0.582);
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.logout-button:hover{
+    background-color: rgb(136, 136, 135);
+    cursor: pointer;
+}
+
+html{
+    background-image: url("../splash-bg.jpg");
+    background-attachment: fixed;
+    height:100vh;
+    background-size: cover;
+
+
+
+}
+
+.Developers-link{
+    display: flex;
+    flex-direction: column;
+}
+
+.Developers-link > a{
+    text-decoration: none;
+    margin-left:20px ;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    color: rgb(253, 253, 255);
+}
+
+.new-dev-btn {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.new-dev-btn:hover{
+    color: rgb(253, 253, 255);
+    cursor: pointer;
+}
